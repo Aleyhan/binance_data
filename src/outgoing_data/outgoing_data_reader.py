@@ -1,49 +1,39 @@
+# src/outgoing_data/outgoing_data_reader.py
 import asyncio
 from typing import Dict, Any
 from src.managers.connection_manager import ConnectionManager
-from src.global_queue.global_queue import global_queue_manager_front, global_queue_manager_back
-
+from src.global_queue.global_queue import global_queue_manager_front
+from src.config import EXCHANGE_SYMBOLS
 
 async def outgoing_data_reader(
     connection_manager: ConnectionManager,
     poll_interval: float = 0.5
 ):
     """
-    Kuyruklardan sürekli veri çeker, gelen verileri 'last_values' sözlüğünde tutar.
-    'merged_data' eski durumdan farklıysa WebSocket üzerinden broadcast eder.
-    poll_interval: Kuyrukları bu sıklıkta (saniye cinsinden) kontrol eder.
+    Tüm exchange–sembol kuyruklarından sürekli veri çekip,
+    eğer veride bir değişiklik varsa WebSocket istemcilerine güncellenmiş veriyi broadcast eder.
     """
-    last_values: Dict[str, Any] = {
-        "binance": None,
-        "btcturk": None
-    }
+    # Her exchange–sembol çifti için en son veriyi saklayan sözlük
+    last_values: Dict[str, Any] = {}
+    for exchange, symbols in EXCHANGE_SYMBOLS.items():
+        for symbol in symbols:
+            key = f"{exchange}_{symbol}"
+            last_values[key] = None
 
-    # Bir önceki yayınlanan birleşik veriyi tutar
-    prev_merged_data: Dict[str, Any] = None
+    prev_merged_data = None
 
     while True:
-        for q_name in ["binance", "btcturk"]:
+        merged_data = {}
+        for key in last_values.keys():
             try:
-                data = await global_queue_manager_front.get(q_name)  # Kuyruktan veri çek
+                data = await global_queue_manager_front.get(key)
                 if data is not None:
-                    # Yeni veri geldiyse last_values'ı güncelle
-                    last_values[q_name] = data
+                    last_values[key] = data
             except asyncio.QueueEmpty:
-                # Veri yoksa eski değeri koru
                 pass
+            merged_data[key] = last_values[key]
 
-        # Mevcut en güncel verileri birleştir
-        merged_data = {
-            "binance": last_values["binance"],
-            "btcturk": last_values["btcturk"]
-        }
-
-        # merged_data, daha önce gönderdiğimiz durumdan farklı mı?
         if merged_data != prev_merged_data:
-            # Farklıysa WebSocket bağlantılarına yayınla
             await connection_manager.broadcast(merged_data)
-            prev_merged_data = merged_data  # Yayınladığımız veriyi güncelle
-
-        # Çok sık döngüye girmemek için bir miktar bekleyelim
+            prev_merged_data = merged_data.copy()
         await asyncio.sleep(poll_interval)
-

@@ -1,3 +1,4 @@
+# src/routes/routes.py
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect, Request
 
 router = APIRouter()
@@ -8,17 +9,16 @@ async def websocket_endpoint(websocket: WebSocket):
     await manager.connect(websocket)
     try:
         while True:
-            await websocket.receive_text()  # İstemciden mesaj beklenmiyorsa kaldırabilirsin
+            await websocket.receive_text()  # Eğer istemciden gelen mesaj beklenmiyorsa kaldırılabilir
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         print("🛑 Bir istemci bağlantıyı kapattı.")
 
-
-@router.get("/queue/{exchange_name}")
-async def get_queue_data(exchange_name: str, request: Request):
+@router.get("/queue/{queue_name}")
+async def get_queue_data(queue_name: str, request: Request):
     queue_manager = request.app.state.queue_manager
     try:
-        data = await queue_manager.get(exchange_name)
+        data = await queue_manager.get(queue_name)
         return data
     except ValueError as e:
         return {"error": str(e)}
