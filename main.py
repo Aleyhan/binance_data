@@ -32,7 +32,7 @@ async def lifespan(app: FastAPI):
     print("🚀 WebSocket dinleyicileri başlatıldı.")
 
     # Gelen veriyi sürekli okuyup, broadcast eden görev
-    task_outgoing = asyncio.create_task(outgoing_data_reader(connection_manager))
+    task_outgoing = asyncio.create_task(outgoing_data_reader(connection_manager, treshold=0.01))
 
     yield
 

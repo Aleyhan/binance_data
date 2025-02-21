@@ -3,8 +3,7 @@
 # Burada borsaların ve ilgili sembollerin listesini düzenleyebilirsiniz.
 # Binance için semboller küçük harf (lowercase) olarak kullanılmalı (combined stream URL buna göre oluşturuluyor).
 EXCHANGE_SYMBOLS = {
-    "Binance": ["btcusdt", "ethusdt"],
-    "BTCTurk": ["btcusdt", "ethusdt"],
-    "BinanceFutures": ["btcusdt", "ethusdt"],
-
+    "Binance": ["btcusdt", "ethusdt", "xrpusdt"],
+    "BTCTurk": ["btcusdt", "ethusdt", "xrpusdt"],
+    "BinanceFutures": ["btcusdt", "ethusdt", "xrpusdt"],
 }
