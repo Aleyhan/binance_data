@@ -48,7 +48,7 @@ async def btcturk_ws_listener(manager: ConnectionManager):
                             "best_ask_qty": float(ticker.get("AA", 0)),
                         }
                         # Kuyruk ismi: "btcturk_<sembol>" şeklinde oluşturuluyor.
-                        queue_key = f"BTCTurk_{symbol}"
+                        queue_key = f"BTCTurk_{symbol.upper()}"
                         await synced_queue_manager.put(queue_key, processed_btcturk_data)
         except Exception as e:
             print(f"⚠️ BTCTurk WebSocket bağlantı hatası: {e}")

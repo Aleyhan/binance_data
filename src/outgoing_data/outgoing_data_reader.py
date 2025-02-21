@@ -20,7 +20,7 @@ async def outgoing_data_reader(
     last_values: Dict[str, Any] = {}
     for exchange, symbols in EXCHANGE_SYMBOLS.items():
         for symbol in symbols:
-            key = f"{exchange}_{symbol}"
+            key = f"{exchange}_{symbol.upper()}"
             last_values[key] = None
 
     prev_merged_data = None

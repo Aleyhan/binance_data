@@ -14,5 +14,5 @@ def initialize_queues():
     """Başlangıçta, konfigürasyonda tanımlı tüm exchange–sembol çiftleri için kuyruk oluşturur."""
     for exchange, symbols in EXCHANGE_SYMBOLS.items():
         for symbol in symbols:
-            queue_name = f"{exchange}_{symbol}"
+            queue_name = f"{exchange}_{symbol.upper()}"
             synced_queue_manager.create_queue(queue_name, maxsize=200)

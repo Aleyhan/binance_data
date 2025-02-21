@@ -13,7 +13,7 @@ async def binance_ws_listener(manager: ConnectionManager):
     """Binance WebSocket verisini, konfigürasyonda tanımlı tüm semboller için dinler ve ilgili kuyruklara iletir."""
     symbols = EXCHANGE_SYMBOLS.get("Binance", [])
     # Binance combined stream URL; semboller lowercase olarak kullanılmalıdır.
-    streams = "/".join([f"{symbol}@bookTicker" for symbol in symbols])
+    streams = "/".join([f"{symbol.lower()}@bookTicker" for symbol in symbols])
     url = f"wss://stream.binance.com:9443/stream?streams={streams}"
 
     global processed_binance_data
@@ -39,7 +39,7 @@ async def binance_ws_listener(manager: ConnectionManager):
                         "best_ask_qty": float(data.get("A", 0)),
                     }
                     # Kuyruk ismi: "binance_<sembol>"
-                    queue_key = f"Binance_{symbol}"
+                    queue_key = f"Binance_{symbol.upper()}"
                     await synced_queue_manager.put(queue_key, processed_binance_data)
         except Exception as e:
             print(f"⚠️ Binance WebSocket bağlantı hatası: {e}")

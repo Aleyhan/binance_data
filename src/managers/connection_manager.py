@@ -20,4 +20,3 @@ class ConnectionManager:
                 await connection.send_json(message)
             except Exception as e:
                 print(f"⚠️ Veri gönderme hatası: {e}")
-

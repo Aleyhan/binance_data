@@ -38,7 +38,7 @@ async def binance_futures_ws_listener(manager: ConnectionManager):
                         "best_ask_qty": float(data.get("A", 0)),
                     }
                     # Kuyruk ismi: "binance_futures_<sembol>"
-                    queue_key = f"BinanceFutures_{symbol}"
+                    queue_key = f"BinanceFutures_{symbol.upper()}"
                     await synced_queue_manager.put(queue_key, processed_binance_futures_data)
         except Exception as e:
             print(f"⚠️ Binance USDT-M Vadeli İşlemler WebSocket bağlantı hatası: {e}")

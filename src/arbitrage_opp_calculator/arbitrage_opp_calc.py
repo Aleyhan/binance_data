@@ -111,15 +111,15 @@ async def process_merged_data_for_arbitrage_BTCTurk2BinanceFutures(merged_data: 
     arbitraj fırsatını hesaplar ve merged_data'ya ekler.
     """
     for symbol in set(key.split('_')[1] for key in merged_data.keys()):
-        btcturk_key = f"BTCTurk_{symbol}"
-        binance_futures_key = f"BinanceFutures_{symbol}"
+        btcturk_key = f"BTCTurk_{symbol.upper()}"
+        binance_futures_key = f"BinanceFutures_{symbol.upper()}"
 
         btcturk_data = merged_data.get(btcturk_key)
         binance_futures_data = merged_data.get(binance_futures_key)
 
         if btcturk_data and binance_futures_data:
             arbitrage_result = await calculate_arbitrage_opportunity(btcturk_data, binance_futures_data, threshold)
-            merged_data[f"arbitrage_{symbol}"] = arbitrage_result
+            merged_data[f"Arbitrage_{symbol}"] = arbitrage_result
 
     return merged_data
 
@@ -149,4 +149,3 @@ async def process_merged_data_for_arbitrage_BTCTurk2BinanceFutures(merged_data: 
 #     updated_merged_data = process_merged_data_for_arbitrage_BTCTurk2BinanceFutures(merged_data_example)
 #     from pprint import pprint
 #     pprint(updated_merged_data)
-
