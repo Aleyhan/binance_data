@@ -54,6 +54,8 @@ async def log_arbitrage_opportunity(arbitrage_data: dict, log_file: str = "arbit
 
         logs.append(json_log_entry)
 
+
+
         async with aiofiles.open(json_log_file, mode="w") as json_file:
             await json_file.write(json.dumps(logs, indent=4))
 
@@ -120,6 +122,9 @@ async def process_merged_data_for_arbitrage_BTCTurk2BinanceFutures(merged_data: 
         if btcturk_data and binance_futures_data:
             arbitrage_result = await calculate_arbitrage_opportunity(btcturk_data, binance_futures_data, threshold)
             merged_data[f"Arbitrage_{symbol}"] = arbitrage_result
+            if arbitrage_result.get("above_threshold"):
+                merged_data[f"Arbitrage_Opportunity_{symbol}"] = arbitrage_result
+
 
     return merged_data
 

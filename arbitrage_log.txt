@@ -1,0 +1,240 @@
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:28:42
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.37)
+Satış Borsası: BinanceFutures (Fiyat: 123.63)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.862%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:28:42
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.37)
+Satış Borsası: BinanceFutures (Fiyat: 123.63)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.862%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:28:42
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.37)
+Satış Borsası: BinanceFutures (Fiyat: 123.63)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.862%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:29:05
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.45)
+Satış Borsası: BinanceFutures (Fiyat: 123.51)
+Fiyat Farkı : 2.06 USDT
+Yüzdelik Fark: 1.696%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:29:06
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.45)
+Satış Borsası: BinanceFutures (Fiyat: 123.51)
+Fiyat Farkı : 2.06 USDT
+Yüzdelik Fark: 1.696%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:29:06
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.45)
+Satış Borsası: BinanceFutures (Fiyat: 123.51)
+Fiyat Farkı : 2.06 USDT
+Yüzdelik Fark: 1.696%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:16
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.2)
+Satış Borsası: BinanceFutures (Fiyat: 123.35)
+Fiyat Farkı : 2.15 USDT
+Yüzdelik Fark: 1.774%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:16
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.2)
+Satış Borsası: BinanceFutures (Fiyat: 123.35)
+Fiyat Farkı : 2.15 USDT
+Yüzdelik Fark: 1.774%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:17
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.2)
+Satış Borsası: BinanceFutures (Fiyat: 123.35)
+Fiyat Farkı : 2.15 USDT
+Yüzdelik Fark: 1.774%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:24
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.23)
+Satış Borsası: BinanceFutures (Fiyat: 123.3)
+Fiyat Farkı : 2.07 USDT
+Yüzdelik Fark: 1.707%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:24
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.23)
+Satış Borsası: BinanceFutures (Fiyat: 123.29)
+Fiyat Farkı : 2.06 USDT
+Yüzdelik Fark: 1.699%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:30:24
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.23)
+Satış Borsası: BinanceFutures (Fiyat: 123.29)
+Fiyat Farkı : 2.06 USDT
+Yüzdelik Fark: 1.699%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:27
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.1)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.27 USDT
+Yüzdelik Fark: 1.874%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:27
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.1)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.27 USDT
+Yüzdelik Fark: 1.874%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:27
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.1)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.27 USDT
+Yüzdelik Fark: 1.874%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:29
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.11)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.866%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:29
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.11)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.866%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:31:29
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.11)
+Satış Borsası: BinanceFutures (Fiyat: 123.37)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.866%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:06
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.14)
+Satış Borsası: BinanceFutures (Fiyat: 123.42)
+Fiyat Farkı : 2.28 USDT
+Yüzdelik Fark: 1.882%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:06
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.14)
+Satış Borsası: BinanceFutures (Fiyat: 123.42)
+Fiyat Farkı : 2.28 USDT
+Yüzdelik Fark: 1.882%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:06
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.14)
+Satış Borsası: BinanceFutures (Fiyat: 123.42)
+Fiyat Farkı : 2.28 USDT
+Yüzdelik Fark: 1.882%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:48
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.13)
+Satış Borsası: BinanceFutures (Fiyat: 123.38)
+Fiyat Farkı : 2.25 USDT
+Yüzdelik Fark: 1.858%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:48
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.13)
+Satış Borsası: BinanceFutures (Fiyat: 123.39)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.866%
+Eşik Aşıldı : ✅ Evet
+======================================
+
+========== ARBITRAJ FIRSATI ==========
+Tarih       : 2025-02-24 20:32:48
+Sembol      : LTCUSDT
+Alış Borsası: BTCTurk (Fiyat: 121.13)
+Satış Borsası: BinanceFutures (Fiyat: 123.39)
+Fiyat Farkı : 2.26 USDT
+Yüzdelik Fark: 1.866%
+Eşik Aşıldı : ✅ Evet
+======================================
